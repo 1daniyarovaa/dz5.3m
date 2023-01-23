@@ -47,7 +47,7 @@ fetch('http://localhost:3000/cards')
              'Content-Type' : 'application/json' 
          }, 
          body: JSON.stringify( 
-             {name: "Rusya" , surname: "Buralkiev" , age : 15} 
+             {name: "Diana " , surname: "Attokurova" , age : 15} 
          ) 
      }).then(res => alert('Данные успешно созданы' , res)) 
      .catch(err => alert('ошибка при создании' , err )) 
@@ -73,7 +73,7 @@ fetch('http://localhost:3000/cards')
   
  let btndel = document.querySelector('.btndel') 
  btndel.addEventListener('click' , () => { 
-     fetch('http://localhost:3000/cards',{ 
+     fetch('http://localhost:3000/cards/4',{ 
          method: "DELETE" 
      }).then(res => alert("Вы успешно удалили" , res)) 
      .catch(err => alert("Ошибка при удалении" , err))  

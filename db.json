@@ -4,9 +4,6 @@
       "id": 1
     },
     {
-      "id": 2
-    },
-    {
       "name": "ghvhgvhvvghv",
       "surname": "cfgcghfy",
       "age": 15,
@@ -41,6 +38,18 @@
       "LastName": "sdfsdfsd",
       "Age": "",
       "id": 8
+    },
+    {
+      "name": "Rusya",
+      "surname": "Buralkiev",
+      "age": 15,
+      "id": 9
+    },
+    {
+      "FirstName": "роопо",
+      "LastName": "роио",
+      "Age": "",
+      "id": 10
     }
   ]
 }
